@@ -1,0 +1,20 @@
+.content {
+  box-sizing: border-box;
+  margin-top: 80px;
+  margin-bottom: 95px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: auto;
+
+  &-box {
+    min-width: 200px;
+    min-height: 200px;
+    background: #acf7ff;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: justify;
+  }
+
+}

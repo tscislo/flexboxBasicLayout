@@ -1,0 +1,24 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+  background: #1fbbff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  box-sizing: border-box;
+
+  &-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-button {
+    padding: 0px 10px;
+  }
+
+}
