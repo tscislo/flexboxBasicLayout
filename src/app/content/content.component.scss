@@ -8,13 +8,22 @@
   overflow: auto;
 
   &-box {
-    min-width: 200px;
+    width: 200px;
     min-height: 200px;
     background: #acf7ff;
     border-radius: 10px;
     margin-top: 15px;
     padding: 10px;
     text-align: justify;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &.wide {
+      flex: 0 50%;
+    }
+
   }
 
 }
